@@ -23,11 +23,8 @@ namespace Snake
             p4.Draw();
 
 
-            List<Point> pList = new List<Point>();
-            pList.Add(p1);
-            pList.Add(p2);
-            pList.Add(p3);
-            pList.Add(p4);
+            HorizontalLine line = new HorizontalLine(3, 8, 10, '+');
+            line.Drow();
 
             Console.ReadLine();
         }
